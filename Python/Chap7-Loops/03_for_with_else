@@ -1,0 +1,8 @@
+# For loops can also have an else block, which is executed when the loop exhausts (i.e., when it finishes iterating over all items in the sequence). The else block will not be executed if the loop is terminated by a break statement.
+
+l= [1,7,8] 
+
+for item in l:
+    print(item)
+else:
+    print("done") # this is printed when the loop exhausts!
