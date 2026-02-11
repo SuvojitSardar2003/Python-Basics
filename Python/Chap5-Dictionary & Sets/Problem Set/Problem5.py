@@ -1,0 +1,3 @@
+# S = {} What is the type of S? How can you create a set with 0 elements? How can you create a set with 1 element?
+
+# The type of S is a dictionary because {} is the syntax for creating an empty dictionary in Python. To create a set with 0 elements, you can use the set() constructor like this: empty_set = set(). To create a set with 1 element, you can use curly braces with a single element like this: single_element_set = {element}. For example, single_element_set = {42} will create a set with one element, which is the integer 42.
