@@ -1,0 +1,7 @@
+# 2. WAP to greet all the person names stored in a list 'l' and which starts with S.
+# l = ["Harry", "Sohan", "Sachin", "Rahul"]
+
+l = ["Harry", "Sohan", "Sachin", "Rahul"]
+for name in l:
+    if(name.startswith("S")):
+        print(f"Hello {name}")

@@ -1,0 +1,6 @@
+# 3. Attempt problem 1 using while loop.
+m = int(input("Enter a number: "))
+i=1
+while(i<=10):
+    print(f"{m} x {i} = {m*i}")
+    i+=1
